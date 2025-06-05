@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Ariel The Monke",
+  "classifications": [ "Library", "C#" ],
+  "identity": "org.arielthemonke.gttemplate",
+  "name": "GT Mod Template",
+  "shortName": "gt-template",
+  "sourceName": "GTTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "symbols": {
+    "guid": {
+        "type": "parameter",
+        "datatype": "string",
+        "defaultValue": "yourname.yourmodname",
+        "replaces": "MOD_GUID_HERE",
+        "description": "The unique GUID for your mod",
+        "displayName": "Mod GUID"
+    },
+    "projName": {
+        "type": "parameter",
+        "datatype": "string",
+        "defaultValue": "your mod name",
+        "replaces": "MOD_NAME_HERE",
+        "description": "The mod name",
+        "displayName": "Project Name"
+    },
+    "gamePath": {
+        "type": "parameter",
+        "datatype": "string",
+        "defaultValue": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gorilla Tag",
+        "replaces": "GAME_PATH_HERE",
+        "description": "Game path",
+        "displayName": "Game Path"
+    }
+  }
+}
